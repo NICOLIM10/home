@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            width: 95%;
+            max-width: 1200px;
+            padding: 30px;
+            border: 2px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .phrase-small {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: justify;
+            font-size: 1.1em;
+            flex: 1;
+        }
+
+        .media-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 100%;
+            max-width: 500px;
+            height: auto; /* Maintain aspect ratio */
+            border: 1px solid #ccc;
+        }
+
+        .image, .video {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            height: auto; /* Landscape proportions */
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>About Me</h1>
+        </header>
+        <section class="main-content">
+            <div class="phrase-small">
+                <p>
+The smell of freshly brewed coffee fills my room as I wake up. It’s my morning ritual—a cup of dark, bold coffee to kickstart my day. I’ve got a lot on my plate as a BSIT student at Perpetual Help Molino College, but honestly, I thrive on the hustle.
+
+Classes are intense, especially with coding projects that sometimes feel like puzzles with missing pieces. But I enjoy the challenge—it’s like a race against time, and I love racing. There’s something about the thrill of competition that pushes me to do better, whether it’s behind the wheel or behind a computer screen.
+
+After class, I meet my friends at our favorite café. Hanging out with them keeps me grounded. We chat about everything—school, racing, and our weekend plans. I’m especially excited because there’s a racing event coming up, and I’ve been itching to hit the track.
+
+Later in the evening, I slide into the driver’s seat of my car. The streets are quiet, the kind of calm I love. As I rev the engine, the sound sends a rush of adrenaline through me. Driving at night feels different—like the world is mine to explore. The city lights blur as I speed along the roads, the wind carrying away all my worries.
+
+This is my life—a mix of studying, hanging out, coffee-fueled moments, and the open road. It’s a balance I’ve found, and I wouldn’t trade it for anything.
+                </p>
+            </div>
+            <div class="media-container">
+                <div class="image">
+                    <img src="462579366_3452998018342131_1337885993880219926_n" alt="Your image description">
+                </div>
+                <div class="video">
+                    <video controls>
+                        <source src="468561449_27894433456871063_154979503372043667_n" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="back-button">
+            <a href="HOME.HTML">HOME</a>
+        </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
